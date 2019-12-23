@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+
+body {
+  background: #FFC13D;
+  position: relative;
+  width: 1920px;
+  height: 3372px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+nav{
+  display: flex;
+  justify-content: center;
+}
+
+/* картинка на фоне */
+.allimg {
+  position: absolute;
+  width: 931px;
+  height: 3034.32px;
+  top: 28px;
+  z-index: 1;
+}
+
+/* анимированные буквы */
+/* ж */
+.a1 {
+  position: absolute;
+  width: 190px;
+  height: 255px;
+  left: 586.35px;
+  top: 1119.74px;
+  z-index: 2;
+  opacity: 0;
+}
+.a1:hover {
+  opacity: 1;
+}
+.a1 {
+  transition: 3s;
+}
+.a1:hover {
+  transition: 0.1s;
+}
+
+/* и */
+.b2 {
+  position: absolute;
+  width: 169px;
+  height: 231px;
+  left: 765.35px;
+  top: 1143.74px;
+  z-index: 2;
+  opacity: 0;
+}
+.b2:hover {
+  opacity: 1;
+}
+.b2 {
+  transition: 3s;
+}
+.b2:hover {
+  transition: 0.1s;
+}
+
+/* р */
+.c3 {
+  position: absolute;
+  width: 113px;
+  height: 267px;
+  left: 942.35px;
+  top: 1118.74px;
+  z-index: 2;
+  opacity: 0;
+}
+.c3:hover {
+  opacity: 1;
+}
+.c3 {
+  transition: 3s;
+}
+.c3:hover {
+  transition: 0.1s;
+}
+
+/* а */
+.d4 {
+  position: absolute;
+  width: 175px;
+  height: 244px;
+  left: 1030.35px;
+  top: 1140.74px;
+  z-index: 2;
+  opacity: 0;
+}
+.d4:hover {
+  opacity: 1;
+}
+.d4 {
+  transition: 3s;
+}
+.d4:hover {
+  transition: 0.1s;
+}
+
+/* ф */
+.e5 {
+  position: absolute;
+  width: 162px;
+  height: 232px;
+  left: 1174.35px;
+  top: 1141.74px;
+  z-index: 2;
+  opacity: 0;
+}
+.e5:hover {
+  opacity: 1;
+}
+.e5 {
+  transition: 3s;
+}
+.e5:hover {
+  transition: 0.1s;
+}
+
+/* н */
+.f6 {
+  position: absolute;
+  width: 137px;
+  height: 239px;
+  left: 823.35px;
+  top: 1390.74px;
+  z-index: 2;
+  opacity: 0;
+}
+.f6:hover {
+  opacity: 1;
+}
+.f6 {
+  transition: 3s;
+}
+.f6:hover {
+  transition: 0.1s;
+}
+
+/* а */
+.g7 {
+  position: absolute;
+  width: 132px;
+  height: 226px;
+  left: 975.35px;
+  top: 1403.74px;
+  z-index: 2;
+  opacity: 0;
+}
+.g7:hover {
+  opacity: 1;
+}
+.g7 {
+  transition: 3s;
+}
+.g7:hover {
+  transition: 0.1s;
+}
+
+/* ч */
+.h8 {
+  position: absolute;
+  width: 168px;
+  height: 204px;
+  left: 783.35px;
+  top: 1631.74px;
+  z-index: 2;
+  opacity: 0;
+}
+.h8:hover {
+  opacity: 1;
+}
+.h8 {
+  transition: 3s;
+}
+.h8:hover {
+  transition: 0.1s;
+}
+
+/* а */
+.i9 {
+  position: absolute;
+  width: 88px;
+  height: 193px;
+  left: 964.35px;
+  top: 1628.74px;
+  z-index: 2;
+  opacity: 0;
+}
+.i9:hover {
+  opacity: 1;
+}
+.i9 {
+  transition: 3s;
+}
+.i9:hover {
+  transition: 0.1s;
+}
+
+/* с */
+.j10 {
+  position: absolute;
+  width: 153px;
+  height: 213px;
+  left: 1060.35px;
+  top: 1628.74px;
+  z-index: 2;
+  opacity: 0;
+}
+.j10:hover {
+  opacity: 1;
+}
+.j10 {
+  transition: 3s;
+}
+.j10:hover {
+  transition: 0.1s;
+}
+
+/* логотип */
+.logo {
+  position: absolute;
+  width: 146px;
+  height: 130px;
+  left: 887px;
+  top: 3145px;
+  animation-name: logo;
+  animation-timing-function: linear;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes logo {
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0,5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ЖИРАФ МОЖЕТ СПАТЬ ПО ДВА ЧАСА В ДЕНЬ */
+.text1 {
+  position: absolute;
+  width: 256.02px;
+  height: 38.75px;
+  left: 831.34px;
+  top: 1022.86px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 129.55%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #42291A;
+}
+
+/* ЖИРАФ ЛЮБИТ ЛИСТЬЯ АКАЦИ */
+.text2 {
+  position: absolute;
+  width: 189.95px;
+  height: 38.8px;
+  left: 864.37px;
+  top: 1883.86px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 129.55%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #42291A;
+}
+
+/* 15/03 */
+.text3 {
+  position: absolute;
+  width: 53.57px;
+  height: 38.37px;
+  left: 1091.52px;
+  top: 3118px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 129.55%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #42291A;
+}
+
+/* лекция */
+.text6 {
+  position: absolute;
+  width: 89.62px;
+  height: 15.26px;
+  left: 764.09px;
+  top: 3118.4px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 129.55%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #42291A;
+}
+
+/* подвал */
+/* По всем вопросам и предложениям
+обращайтесь к нам по телефону:
++7 (945) 420-20-20
+Или по электронному адресу:
+giraffee@mail.ru
+Пятнистая 23 */
+.text4 {
+  position: absolute;
+  width: 316.35px;
+  height: 99.97px;
+  left: 492px;
+  top: 3212.2px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 129.55%;
+  letter-spacing: 0.1em;
+  color: #42291A;
+}
+
+/* facebook.com/giraffeee
+vk.com/giraffeee
+t.me/giraffeee */
+.text5 {
+  position: absolute;
+  width: 203.46px;
+  height: 50.62px;
+  left: 1219.45px;
+  top: 3214.21px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 129.55%;
+  letter-spacing: 0.1em;
+  color: #42291A;
+}
+
+
+/* разрешения */
+
+/* macbook pro 15 castom */
+@media screen and (max-width: 1680px) {
+  /* ничего не меняется,
+  только растягивается картинка */
+}
+
+/* macbook pro 15 */
+@media screen and (max-width: 1440px) {
+  /* ничего не меняется,
+  только растягивается картинка */
+}
+
+/* macbook air 12 */
+@media screen and (max-width: 1366px) {
+  /* ничего не меняется,
+  только растягивается картинка */
+}
+
+/* macbook pro 16 */
+@media screen and (max-width: 1280px) {
+  /* ничего не меняется,
+  только растягивается картинка */
+}
+
+/* macbook ipad2 */
+@media screen and (max-width: 1024px) {
+  /* анимация сама по себе
+  и растягивается картинка */
+  /* анимированные буквы */
+  /* ж */
+  .a1 {
+    position: absolute;
+    width: 190px;
+    height: 255px;
+    left: 586.35px;
+    top: 1119.74px;
+    z-index: 2;
+    opacity:0;
+    /*Элемент полностью прозрачный (невидимый)*/
+    transition: 1s;
+    /*Скорость перехода состояния элемента*/
+    animation: show 3s 2;
+    /* Указываем название анимации,
+    её время и количество повторов*/
+    animation-fill-mode: forwards;
+    /* Чтобы элемент оставался в конечном состоянии анимации */
+    animation-delay: 1s;
+    /* Задержка перед началом */
+  }
+  @keyframes show {
+  0% {
+  opacity:0;
+  }
+  100% {
+  opacity:1;
+  }
+  }
+/* и */
+  .b2 {
+    position: absolute;
+    width: 169px;
+    height: 231px;
+    left: 765.35px;
+    top: 1143.74px;
+    z-index: 2;
+    opacity:0;
+    transition: 1s;
+    animation: show 3s 2;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+  }
+  @keyframes show1 {
+  0% {
+  opacity:0;
+  }
+  100% {
+  opacity:1;
+  }
+  }
+/* р */
+  .c3 {
+    position: absolute;
+    width: 113px;
+    height: 267px;
+    left: 942.35px;
+    top: 1118.74px;
+    z-index: 2;
+    opacity:0;
+    transition: 1s;
+    animation: show 3s 2;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+  }
+  @keyframes show {
+  0% {
+  opacity:0;
+  }
+  100% {
+  opacity:1;
+  }
+  }
+/* а */
+  .d4 {
+    position: absolute;
+    width: 175px;
+    height: 244px;
+    left: 1030.35px;
+    top: 1140.74px;
+    z-index: 2;
+    opacity:0;
+    transition: 1s;
+    animation: show 3s 2;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+  }
+  @keyframes show {
+  0% {
+  opacity:0;
+  }
+  100% {
+  opacity:1;
+  }
+  }
+/* ф */
+  .e5 {
+    position: absolute;
+    width: 162px;
+    height: 232px;
+    left: 1174.35px;
+    top: 1141.74px;
+    z-index: 2;
+    opacity:0;
+    transition: 1s;
+    animation: show 3s 2;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+  }
+  @keyframes show {
+  0% {
+  opacity:0;
+  }
+  100% {
+  opacity:1;
+  }
+  }
+/* н */
+  .f6 {
+    position: absolute;
+    width: 137px;
+    height: 239px;
+    left: 823.35px;
+    top: 1390.74px;
+    z-index: 2;
+    opacity:0;
+    transition: 1s;
+    animation: show 3s 2;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+  }
+  @keyframes show {
+  0% {
+  opacity:0;
+  }
+  100% {
+  opacity:1;
+  }
+  }
+/* а */
+  .g7 {
+    position: absolute;
+    width: 132px;
+    height: 226px;
+    left: 975.35px;
+    top: 1403.74px;
+    z-index: 2;
+    opacity:0;
+    transition: 1s;
+    animation: show 3s 2;
+    animation-fill-mode: forwards;
+    animation-delay: 7s;
+  }
+  @keyframes show {
+  0% {
+  opacity:0;
+  }
+  100% {
+  opacity:1;
+  }
+  }
+/* ч */
+  .h8 {
+    position: absolute;
+    width: 168px;
+    height: 204px;
+    left: 783.35px;
+    top: 1631.74px;
+    z-index: 2;
+    opacity:0;
+    transition: 1s;
+    animation: show 3s 2;
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+  }
+  @keyframes show {
+  0% {
+  opacity:0;
+  }
+  100% {
+  opacity:1;
+  }
+  }
+/* а */
+  .i9 {
+    position: absolute;
+    width: 88px;
+    height: 193px;
+    left: 964.35px;
+    top: 1628.74px;
+    z-index: 2;
+    opacity:0;
+    transition: 1s;
+    animation: show 3s 2;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+  }
+  @keyframes show {
+  0% {
+  opacity:0;
+  }
+  100% {
+  opacity:1;
+  }
+  }
+/* с */
+  .j10 {
+    position: absolute;
+    width: 153px;
+    height: 213px;
+    left: 1060.35px;
+    top: 1628.74px;
+    z-index: 2;
+    opacity:0;
+    transition: 1s;
+    animation: show 3s 2;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+  }
+  @keyframes show {
+  0% {
+  opacity:0;
+  }
+  100% {
+  opacity:1;
+  }
+  }
+
+/* macbook ipad1 */
+@media screen and (max-width: 768px) {
+  /* анимация сама по себе
+  и растягивается картинка */
+}
+
+/* iphone xs max */
+@media screen and (max-width: 414px) {
+  /* анимация сама по себе
+  и растягивается картинка */
+.allimg {
+  width: 100%;
+  height: auto;
+}
+}
+
+/* iphone xs 8+ 9 */
+@media screen and (max-width: 375px) {
+  /* анимация сама по себе
+  и растягивается картинка */
+}
+
+/* iphone se */
+@media screen and (max-width: 320px) {
+  /* анимация сама по себе
+  и растягивается картинка */
+}
